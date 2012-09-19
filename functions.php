@@ -97,5 +97,10 @@ function founders_p2_query() {
 }
 
 
+/**
+ * Define the slug for mentions so that mentions pages aren't linked up.
+ */
+define( 'P2_MENTIONS_SLUG', 'author', 'p2_mentions_slug' );
+
 
 ?>
