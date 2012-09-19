@@ -1,6 +1,8 @@
 <?php
 
-/* Styled login screen */
+/**
+ * Styled login screen.
+ */
 add_action( 'login_head', 'founders_login_css', 99999 );
 
 function founders_login_css() { 
@@ -60,7 +62,7 @@ function founders_login_css() {
 }
 
 
-if (class_exists('MultiPostThumbnails')) {
+if (class_exists( 'MultiPostThumbnails' )) {
 
 	new MultiPostThumbnails(
 	
